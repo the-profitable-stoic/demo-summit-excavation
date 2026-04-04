@@ -1,0 +1,520 @@
+{
+  "business": {
+    "name": "Summit Excavation",
+    "phone": "555-exc-r91",
+    "category": "excavation",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  "design": {
+    "preset": {
+      "id": "excavation-mountain-bold",
+      "categoryGroup": "excavation",
+      "name": "Mountain Bold",
+      "recipeFile": "excavation/mountain-bold.astro",
+      "colors": {
+        "primary": "#78350F",
+        "primaryDark": "#54250b",
+        "primaryLight": "#ddcdc3",
+        "secondary": "#B45309",
+        "accent": "#D97706",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#78350F",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "excavation/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Nashville's Excavation Experts",
+      "heroSubline": "Precision earthwork for Middle Tennessee's toughest terrain. We handle Nashville's limestone bedrock and rapid growth with proven methods.",
+      "aboutTitle": "Built on Solid Ground",
+      "aboutText": [
+        "Founded in 2012, Summit Excavation grew from a single bulldozer serving East Nashville renovations to Davidson County's most trusted earthmoving team. Our founder learned the trade digging foundations in Green Hills' clay-heavy soils.",
+        "We don't just move dirt—we engineer solutions. Every job starts with laser grading and ends with compaction tests. Our crews train quarterly on Tennessee's erosion control standards.",
+        "When the 2020 tornado hit Germantown, we volunteered equipment to clear debris. Now we sponsor little league teams in Franklin and Murfreesboro."
+      ],
+      "valueProps": [
+        {
+          "title": "Bedrock Specialists",
+          "description": "We've cracked every type of limestone formation from Brentwood to Hendersonville without blasting."
+        },
+        {
+          "title": "Storm Ready",
+          "description": "Same-day emergency response when Middle Tennessee's severe weather damages properties."
+        },
+        {
+          "title": "No Surprises",
+          "description": "Fixed pricing after our free site evaluation—we absorb unexpected bedrock issues."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "20+ years combined experience with Davidson County's soil composition and permit requirements."
+        }
+      ],
+      "ctaHeadline": "Need a Hole? We Dig It.",
+      "ctaSubline": "Schedule your free site assessment today. Same-week availability for most projects."
+    },
+    "services": [
+      {
+        "slug": "residential-lot-clearing",
+        "name": "Residential Lot Clearing",
+        "shortDescription": "Turn overgrown Nashville properties into build-ready sites without damaging existing trees.",
+        "description": "Middle Tennessee's rapid growth means clearing everything from East Nashville bungalow lots to Brentwood's wooded estates. Our forestry-equipped excavators selectively remove brush while preserving mature oaks and hickories.\n\nWe handle the full process: utility marking, invasive species removal, stump grinding, and erosion control installation. For historic districts like Franklin's downtown, we use smaller equipment to protect antique brickwork and delicate root systems.\n\nEvery job includes debris hauling to approved landfills and final grade sloping for proper drainage—critical in Nashville's heavy rainfall climate.",
+        "process": [
+          "Step 1: Survey site for protected trees and underground utilities",
+          "Step 2: Mark clearing boundaries with biodegradable paint",
+          "Step 3: Remove vegetation with grapple attachments to minimize soil disturbance",
+          "Step 4: Grade land to 2% slope away from foundations"
+        ],
+        "benefits": [
+          "Preserves valuable shade trees",
+          "Prevents post-construction erosion",
+          "Compliant with Metro Nashville stormwater rules",
+          "Leaves sites builder-ready"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent damage to neighboring properties?",
+            "answer": "We install silt fencing before work begins and use track-mounted equipment that exerts less ground pressure than wheeled vehicles. For tight lots, we employ compact excavators."
+          },
+          {
+            "question": "What happens to the cleared vegetation?",
+            "answer": "We chip usable material for mulch and haul the rest to the Radnor Yard waste facility. No burning permitted in Davidson County."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-excavation",
+        "name": "Foundation Excavation",
+        "shortDescription": "Precision digging for Nashville's custom homes and commercial builds.",
+        "description": "Middle Tennessee's limestone bedrock demands experienced excavators. We've dug foundations for everything from Gulch high-rises to Hendersonville lake houses, adapting to each site's unique challenges.\n\nOur process starts with ground-penetrating radar to locate rock ledges and voids. For Brentwood's luxury estates, we hand-dig around existing tree roots. When encountering solid limestone in Green Hills, we use hydraulic splitters instead of disruptive blasting.\n\nWe coordinate closely with structural engineers to achieve exact footing depths. All sites receive laser-level verification and temporary shoring where needed—especially important in Nashville's clay-heavy soils during spring rains.",
+        "process": [
+          "Step 1: Verify property pins and setback requirements",
+          "Step 2: Expose bedrock with careful topsoil removal",
+          "Step 3: Shape trenches to engineer specifications",
+          "Step 4: Install erosion controls per Metro Water Services"
+        ],
+        "benefits": [
+          "Prevents costly over-excavation",
+          "Minimizes vibration damage to nearby homes",
+          "Meets strict Metro Nashville codes",
+          "Provides clean working space for masons"
+        ],
+        "faq": [
+          {
+            "question": "How deep do you typically excavate for foundations?",
+            "Answer": "Most Nashville-area homes require 36-42\" footings to get below frost line, but we always follow the engineer's stamped plans. Some Brentwood estates need 8' depths for basement additions."
+          }
+        ]
+      },
+      {
+        "slug": "storm-drainage-solutions",
+        "name": "Storm Drainage Solutions",
+        "shortDescription": "Protect your property from Nashville's heavy rains with proper grading and drainage.",
+        "description": "With Middle Tennessee averaging 47\" of annual rainfall—often in intense bursts—proper drainage prevents basement floods and erosion. We design systems tailored to each property's topography.\n\nFor East Nashville's historic homes, we install French drains that preserve original landscaping. In Murfreesboro's new developments, we regrade entire lots to direct water away from foundations. Around Old Hickory Lake, we use riprap to prevent shoreline washout.\n\nAll work complies with TDEC regulations. We handle permits for curb cuts and storm sewer ties-ins, working closely with Metro Water Services inspectors on commercial projects.",
+        "process": [
+          "Step 1: Conduct topographic survey with laser level",
+          "Step 2: Identify natural water flow paths",
+          "Step 3: Install appropriate drainage (channel drains, dry wells, etc.)",
+          "Step 4: Test system with 1000+ gallons of water"
+        ],
+        "benefits": [
+          "Prevents foundation cracks from soil expansion",
+          "Eliminates standing water that breeds mosquitoes",
+          "Protects landscaping investments",
+          "Meets floodplain requirements"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix my constantly flooded backyard?",
+            "Answer": "Yes—we've regraded hundreds of Nashville properties. Solutions range from simple swale creation to full dry well systems with overflow piping."
+          }
+        ]
+      },
+      {
+        "slug": "pool-excavation",
+        "name": "Pool Excavation",
+        "shortDescription": "Custom digging for Nashville's luxury inground pools.",
+        "description": "Middle Tennessee's growing luxury market means more pool installations in Brentwood and Franklin. We specialize in precision digs that account for bedrock depth and groundwater levels.\n\nOur compact excavators fit through standard gates, preserving landscaping. For rocky sites in Green Hills, we use micro-blasting techniques approved by Metro Codes. Every project includes spoil removal and final grade preparation for decking crews.\n\nWe coordinate with pool companies to ensure proper equipment access and shelf depths. Post-dig, we provide certified elevation surveys showing compliance with setback requirements.",
+        "process": [
+          "Step 1: Verify property lines and utility locations",
+          "Step 2: Excavate to exact shape with 6\" tolerance",
+          "Step 3: Install temporary shoring if needed",
+          "Step 4: Haul away all excess material"
+        ],
+        "benefits": [
+          "Precise contours for vinyl and gunite pools",
+          "No damage to existing hardscapes",
+          "Includes all necessary permits",
+          "Leaves site ready for plumbers"
+        ],
+        "faq": [
+          {
+            "question": "How long does pool excavation typically take?",
+            "Answer": "Most residential digs complete in 2-3 days depending on soil conditions. Brentwood limestone sites may require 4 days with rock breaking."
+          }
+        ]
+      },
+      {
+        "slug": "retaining-walls",
+        "name": "Retaining Walls",
+        "shortDescription": "Structural solutions for Nashville's sloped properties.",
+        "description": "From The Gulch's terraced lots to Hendersonville's lakefront drops, we build walls that stand the test of time. Our team specializes in both functional and decorative solutions using locally sourced materials.\n\nFor historic districts like 12South, we match existing stonework with Tennessee fieldstone. Modern builds often utilize segmental concrete blocks with reinforced cores. Every design accounts for Middle Tennessee's freeze-thaw cycles and heavy rains.\n\nWe handle all engineering requirements, including drainage behind walls and proper footing depths. Commercial projects receive stamped plans from our partner structural engineers.",
+        "process": [
+          "Step 1: Analyze soil type and load requirements",
+          "Step 2: Excavate to stable subgrade",
+          "Step 3: Install proper drainage layers",
+          "Step 4: Construct wall with laser-guided alignment"
+        ],
+        "benefits": [
+          "Prevents hillside erosion",
+          "Creates usable flat spaces",
+          "Built to last decades",
+          "Enhances property value"
+        ],
+        "faq": [
+          {
+            "question": "What's the average lifespan of a retaining wall?",
+            "Answer": "Properly built stone or reinforced concrete walls typically last 50+ years in Middle Tennessee. We warranty all workmanship for 10 years."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Foundation Excavation",
+        "text": "Summit excavated our Green Hills addition site with surgical precision. Hit solid limestone at 3 feet but they adapted without blasting—saved our mature dogwoods and finished two days early.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Storm Drainage Solutions",
+        "text": "After 12South's record rainfall flooded our basement twice, Summit regraded our entire lot and installed a dry well system. Not a drop of water since, even during last April's downpour.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Derrick S.",
+        "rating": 5,
+        "service": "Pool Excavation",
+        "text": "The crew showed up at 7 AM sharp to dig our Brentwood pool. They navigated tight spaces between our oak trees and even saved the landscaping lights we forgot to move. Depth was perfect for the gunite crew.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Retaining Walls",
+        "text": "Our Hendersonville lakefront was eroding badly. Summit built a 60' stone wall that looks like it's been there forever. The herringbone drainage system handles Old Hickory Lake's seasonal rises perfectly.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Residential Lot Clearing",
+        "text": "Cleared our East Nashville bungalow lot without disturbing the neighbors' historic fence. They hauled away 12 tons of brush same-day and left the site ready for our builder to start Monday.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Tanya W.",
+        "rating": 5,
+        "service": "Foundation Excavation",
+        "text": "Murfreesboro's red clay is no joke—Summit still hit our footing depths exactly despite weeks of rain delays. Their tracked equipment didn't tear up our lawn like wheeled loaders would have.",
+        "date": "2024-07-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Nashville Excavation Contractors | Summit Excavation TN",
+        "description": "Expert excavation services in Nashville and Middle Tennessee. Residential and commercial site work with local knowledge of limestone bedrock."
+      },
+      "about": {
+        "title": "About Our Nashville Excavation Company",
+        "description": "Learn why Summit Excavation has been Davidson County's trusted earthmoving partner since 2012. Local crews, proven methods."
+      },
+      "services": {
+        "title": "Nashville Excavation Services | Site Work Solutions",
+        "description": "Complete excavation services for Middle Tennessee homes and businesses. Foundation digging, lot clearing, drainage, and more."
+      },
+      "contact": {
+        "title": "Contact Nashville's Excavation Experts",
+        "description": "Get a free quote for your Davidson County excavation project. Serving Franklin, Murfreesboro, Brentwood, and Hendersonville."
+      },
+      "reviews": {
+        "title": "Summit Excavation Customer Reviews | Nashville TN",
+        "description": "See why Middle Tennessee homeowners and builders trust Summit Excavation for precision earthmoving and site preparation."
+      },
+      "service-areas": {
+        "title": "Nashville Area Excavation Services",
+        "description": "Local excavation contractor serving Davidson County and surrounding communities. Franklin, Murfreesboro, Brentwood, Hendersonville."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Franklin",
+        "slug": "franklin-tn",
+        "state": "TN",
+        "content": "Summit Excavation proudly serves Franklin, TN, a historic city known for its charming antebellum homes and vibrant downtown. With a population of around 85,000, Franklin combines rich history with modern growth, making excavation services essential for both preservation and new construction projects. Our team is experienced in navigating the unique challenges posed by Franklin's hot, humid summers, ensuring efficient and reliable service year-round. Whether you're restoring a historic property or breaking ground on a new development, Summit Excavation has the expertise to handle your project with care.",
+        "localContext": "Franklin is renowned for its historic downtown and antebellum architecture, attracting both residents and tourists.",
+        "nearbyAreas": [
+          "Brentwood",
+          "Nolensville",
+          "Spring Hill"
+        ]
+      },
+      {
+        "city": "Murfreesboro",
+        "slug": "murfreesboro-tn",
+        "state": "TN",
+        "content": "Murfreesboro, TN, is a thriving city with a population of approximately 165,000, known for its affordable family-friendly developments and rapid growth. Summit Excavation is proud to support this community with top-tier excavation services tailored to the needs of residential and commercial projects. The hot, humid summers in Murfreesboro require careful planning and execution, and our team is equipped to deliver results despite the challenging climate. From site preparation to utility installation, we ensure your project runs smoothly from start to finish.",
+        "localContext": "Murfreesboro is a fast-growing city with a focus on affordable housing and family-oriented communities.",
+        "nearbyAreas": [
+          "Smyrna",
+          "La Vergne",
+          "Rockvale"
+        ]
+      },
+      {
+        "city": "Brentwood",
+        "slug": "brentwood-tn",
+        "state": "TN",
+        "content": "Brentwood, TN, is an upscale community with a population of around 45,000, featuring luxury estates nestled on wooded lots. Summit Excavation specializes in high-end excavation services tailored to Brentwood's discerning homeowners and developers. The hot, humid summers can pose challenges for construction, but our team is adept at managing these conditions to deliver flawless results. Whether you're building a custom home or enhancing your property, our precision and attention to detail ensure your vision becomes a reality.",
+        "localContext": "Brentwood is synonymous with luxury living, offering expansive estates in a serene, wooded setting.",
+        "nearbyAreas": [
+          "Franklin",
+          "Nashville",
+          "Nolensville"
+        ]
+      },
+      {
+        "city": "Hendersonville",
+        "slug": "hendersonville-tn",
+        "state": "TN",
+        "content": "Hendersonville, TN, is a picturesque city of about 62,000 residents, known for its stunning lakefront homes along Old Hickory Lake. Summit Excavation provides specialized services to accommodate the unique needs of waterfront properties, ensuring minimal disruption to the natural landscape. The hot, humid summers in Hendersonville require careful project planning, and our team is experienced in working efficiently under these conditions. Whether you're building a new dock or excavating for a home foundation, we deliver exceptional results with a focus on sustainability.",
+        "localContext": "Hendersonville is a lakeside haven, offering beautiful waterfront properties and a relaxed lifestyle.",
+        "nearbyAreas": [
+          "Gallatin",
+          "Goodlettsville",
+          "White House"
+        ]
+      },
+      {
+        "city": "Nashville",
+        "slug": "nashville-tn",
+        "state": "TN",
+        "content": "Nashville, TN, the vibrant capital city, is a hub of growth and development, requiring expert excavation services for its diverse projects. Summit Excavation is proud to serve Nashville's bustling urban core and surrounding neighborhoods, handling everything from small residential jobs to large-scale commercial sites. The hot, humid summers demand adaptable solutions, and our team is equipped to tackle any challenge. With a commitment to quality and efficiency, we help shape the future of Music City, one excavation at a time.",
+        "localContext": "Nashville is a dynamic city known for its music scene, rapid growth, and mix of historic and modern architecture.",
+        "nearbyAreas": [
+          "Brentwood",
+          "Franklin",
+          "Hermitage"
+        ]
+      },
+      {
+        "city": "Gallatin",
+        "slug": "gallatin-tn",
+        "state": "TN",
+        "content": "Gallatin, TN, is a growing city with a population of around 45,000, offering a blend of rural charm and modern development. Summit Excavation provides reliable services to support Gallatin's expansion, from residential subdivisions to commercial infrastructure. The hot, humid summers require careful project management, and our team is skilled at maintaining productivity in these conditions. Whether you're developing land or improving an existing property, we deliver dependable excavation solutions tailored to Gallatin's needs.",
+        "localContext": "Gallatin is a rapidly developing city with a mix of agricultural roots and new residential growth.",
+        "nearbyAreas": [
+          "Hendersonville",
+          "Portland",
+          "Goodlettsville"
+        ]
+      },
+      {
+        "city": "Spring Hill",
+        "slug": "spring-hill-tn",
+        "state": "TN",
+        "content": "Spring Hill, TN, is a fast-growing community with a population of approximately 50,000, known for its family-friendly atmosphere and affordable housing. Summit Excavation is proud to contribute to Spring Hill's development with expert excavation services for both residential and commercial projects. The hot, humid summers present unique challenges, but our team is prepared to handle them with precision and efficiency. From land clearing to utility installation, we ensure your project is completed on time and to the highest standards.",
+        "localContext": "Spring Hill is a popular choice for families, offering affordable homes and a strong sense of community.",
+        "nearbyAreas": [
+          "Franklin",
+          "Columbia",
+          "Thompson's Station"
+        ]
+      },
+      {
+        "city": "Smyrna",
+        "slug": "smyrna-tn",
+        "state": "TN",
+        "content": "Smyrna, TN, is a thriving suburb with a population of around 55,000, known for its industrial growth and family-oriented neighborhoods. Summit Excavation provides essential services to support Smyrna's expanding infrastructure and residential developments. The hot, humid summers require adaptable excavation strategies, and our team is experienced in overcoming these challenges. Whether you're breaking ground on a new home or a commercial site, we deliver reliable and professional results.",
+        "localContext": "Smyrna is a bustling suburb with a strong industrial presence and a focus on community development.",
+        "nearbyAreas": [
+          "Murfreesboro",
+          "La Vergne",
+          "Nolensville"
+        ]
+      },
+      {
+        "city": "Columbia",
+        "slug": "columbia-tn",
+        "state": "TN",
+        "content": "Columbia, TN, is a historic city with a population of approximately 40,000, offering a blend of small-town charm and modern amenities. Summit Excavation is proud to serve Columbia with tailored excavation services for both historic preservation and new construction. The hot, humid summers demand careful planning, and our team is adept at managing these conditions. Whether you're restoring a landmark or developing a new property, we provide the expertise and dedication needed for success.",
+        "localContext": "Columbia is rich in history and culture, with a growing emphasis on revitalization and development.",
+        "nearbyAreas": [
+          "Spring Hill",
+          "Mount Pleasant",
+          "Lewisburg"
+        ]
+      },
+      {
+        "city": "Lebanon",
+        "slug": "lebanon-tn",
+        "state": "TN",
+        "content": "Lebanon, TN, is a vibrant city with a population of around 40,000, known for its mix of historic charm and rapid growth. Summit Excavation supports Lebanon's development with expert services for residential, commercial, and municipal projects. The hot, humid summers require efficient excavation techniques, and our team is skilled at delivering results despite the climate. From site preparation to drainage solutions, we ensure your project is completed with precision and care.",
+        "localContext": "Lebanon is a growing city with a strong sense of community and a blend of historic and modern appeal.",
+        "nearbyAreas": [
+          "Mount Juliet",
+          "Hartsville",
+          "Watertown"
+        ]
+      },
+      {
+        "city": "Mount Juliet",
+        "slug": "mount-juliet-tn",
+        "state": "TN",
+        "content": "Mount Juliet, TN, is a rapidly expanding suburb with a population of approximately 40,000, offering a high quality of life and family-friendly neighborhoods. Summit Excavation is proud to contribute to Mount Juliet's growth with reliable excavation services for homes, businesses, and public projects. The hot, humid summers present unique challenges, but our team is equipped to handle them with professionalism. Whether you're building a new home or upgrading infrastructure, we deliver exceptional results.",
+        "localContext": "Mount Juliet is a sought-after suburb known for its excellent schools and community-focused lifestyle.",
+        "nearbyAreas": [
+          "Lebanon",
+          "Hermitage",
+          "Old Hickory"
+        ]
+      },
+      {
+        "city": "Clarksville",
+        "slug": "clarksville-tn",
+        "state": "TN",
+        "content": "Clarksville, TN, is a bustling city with a population of around 170,000, known for its military presence and strong economy. Summit Excavation provides essential services to support Clarksville's ongoing development, from residential subdivisions to commercial sites. The hot, humid summers require adaptable excavation strategies, and our team is experienced in overcoming these challenges. Whether you're a homeowner or developer, we offer the expertise and reliability needed for successful projects.",
+        "localContext": "Clarksville is a dynamic city with a strong military influence and a rapidly growing population.",
+        "nearbyAreas": [
+          "Hopkinsville",
+          "Oak Grove",
+          "Fort Campbell"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-lot-clearing": "/images/service-residential-lot-clearing.webp",
+      "foundation-excavation": "/images/service-foundation-excavation.webp",
+      "pool-excavation": "/images/service-pool-excavation.webp",
+      "retaining-walls": "/images/service-retaining-walls.webp",
+      "storm-drainage-solutions": "/images/service-storm-drainage-solutions.webp"
+    },
+    "servicesResponsive": {
+      "residential-lot-clearing": {
+        "src": "/images/service-residential-lot-clearing.webp",
+        "srcset": "/images/service-residential-lot-clearing-400w.webp 400w, /images/service-residential-lot-clearing-800w.webp 800w, /images/service-residential-lot-clearing-1200w.webp 1200w, /images/service-residential-lot-clearing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-excavation": {
+        "src": "/images/service-foundation-excavation.webp",
+        "srcset": "/images/service-foundation-excavation-400w.webp 400w, /images/service-foundation-excavation-800w.webp 800w, /images/service-foundation-excavation-1200w.webp 1200w, /images/service-foundation-excavation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-excavation": {
+        "src": "/images/service-pool-excavation.webp",
+        "srcset": "/images/service-pool-excavation-400w.webp 400w, /images/service-pool-excavation-800w.webp 800w, /images/service-pool-excavation-1200w.webp 1200w, /images/service-pool-excavation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "retaining-walls": {
+        "src": "/images/service-retaining-walls.webp",
+        "srcset": "/images/service-retaining-walls-400w.webp 400w, /images/service-retaining-walls-800w.webp 800w, /images/service-retaining-walls-1200w.webp 1200w, /images/service-retaining-walls.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-drainage-solutions": {
+        "src": "/images/service-storm-drainage-solutions.webp",
+        "srcset": "/images/service-storm-drainage-solutions-400w.webp 400w, /images/service-storm-drainage-solutions-800w.webp 800w, /images/service-storm-drainage-solutions-1200w.webp 1200w, /images/service-storm-drainage-solutions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
